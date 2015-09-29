@@ -1,0 +1,24 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bigshovellabs.movies.MovieSummaryFragment">
+    <ProgressBar
+        android:id="@+id/progressBarSpinner"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"/>
+
+    <GridView
+    android:id="@+id/fragment_movie_list_grid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:verticalSpacing="0dp"
+    android:horizontalSpacing="0dp"
+    android:stretchMode="columnWidth"
+    android:numColumns="2"
+    />
+
+</FrameLayout>
